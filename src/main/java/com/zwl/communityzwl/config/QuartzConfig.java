@@ -1,7 +1,8 @@
 package com.zwl.communityzwl.config;
 
 
-import com.ljn.communityljn.quartz.PostScoreRefreshJob;
+import com.zwl.communityzwl.quartz.PostScoreRefreshJob;
+import com.zwl.communityzwl.quartz.PostScoreRefreshJob;
 import org.quartz.JobDataMap;
 import org.quartz.JobDetail;
 import org.springframework.context.annotation.Bean;
@@ -9,13 +10,7 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.scheduling.quartz.JobDetailFactoryBean;
 import org.springframework.scheduling.quartz.SimpleTriggerFactoryBean;
 
-/**
- * @Author li
- * @Date 11/17/22 10:35 AM
- * @Version 1.0
- * 描述 ：quartz的配置
- * 名称：QuartzConfig
- */
+
 // 配置 -> 数据库 -> 调用
 @Configuration
 public class QuartzConfig {

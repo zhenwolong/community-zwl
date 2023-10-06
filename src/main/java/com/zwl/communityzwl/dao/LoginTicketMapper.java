@@ -1,15 +1,9 @@
-package com.ljn.communityljn.dao;
+package com.zwl.communityzwl.dao;
 
-import com.ljn.communityljn.entity.LoginTicket;
+import com.zwl.communityzwl.entity.LoginTicket;
 import org.apache.ibatis.annotations.*;
 
-/**
- * @Author li
- * @Date 11/4/22 7:58 PM
- * @Version 1.0
- * 描述 ：
- * 名称：LoginTicketMapper
- */
+
 @Mapper
 @Deprecated
 public interface LoginTicketMapper {

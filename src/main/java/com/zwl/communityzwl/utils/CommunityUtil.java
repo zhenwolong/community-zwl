@@ -1,4 +1,4 @@
-package com.ljn.communityljn.utils;
+package com.zwl.communityzwl.utils;
 
 import com.alibaba.fastjson.JSONObject;
 import org.apache.commons.lang3.StringUtils;
@@ -8,13 +8,7 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.UUID;
 
-/**
- * @Author li
- * @Date 11/4/22 9:20 AM
- * @Version 1.0
- * 描述 ：
- * 名称：CommunityUtil
- */
+
 public class CommunityUtil {
 
     // 生成随机字符串

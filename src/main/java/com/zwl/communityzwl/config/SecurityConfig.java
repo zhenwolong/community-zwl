@@ -1,7 +1,7 @@
-package com.ljn.communityljn.config;
+package com.zwl.communityzwl.config;
 
-import com.ljn.communityljn.utils.CommunityConstant;
-import com.ljn.communityljn.utils.CommunityUtil;
+import com.zwl.communityzwl.utils.CommunityConstant;
+import com.zwl.communityzwl.utils.CommunityUtil;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.security.access.AccessDeniedException;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
@@ -17,13 +17,7 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.io.PrintWriter;
 
-/**
- * @Author li
- * @Date 11/16/22 9:37 AM
- * @Version 1.0
- * 描述 ：security配置类
- * 名称：SecurityConfig
- */
+
 @Configuration
 public class SecurityConfig extends WebSecurityConfigurerAdapter implements CommunityConstant {
 

@@ -1,9 +1,9 @@
-package com.ljn.communityljn.controller.interceptor;
+package com.zwl.communityzwl.controller.interceptor;
 
 
-import com.ljn.communityljn.entity.User;
-import com.ljn.communityljn.service.DataService;
-import com.ljn.communityljn.utils.HostHolder;
+import com.zwl.communityzwl.entity.User;
+import com.zwl.communityzwl.service.DataService;
+import com.zwl.communityzwl.utils.HostHolder;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 import org.springframework.web.servlet.HandlerInterceptor;

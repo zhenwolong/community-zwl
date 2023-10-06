@@ -1,11 +1,17 @@
-package com.ljn.communityljn.quartz;
+package com.zwl.communityzwl.quartz;
 
-import com.ljn.communityljn.entity.DiscussPost;
-import com.ljn.communityljn.service.DiscussPostService;
-import com.ljn.communityljn.service.ElasticsearchService;
-import com.ljn.communityljn.service.LikeService;
-import com.ljn.communityljn.utils.CommunityConstant;
-import com.ljn.communityljn.utils.RedisKeyUtil;
+import com.zwl.communityzwl.entity.DiscussPost;
+import com.zwl.communityzwl.service.DiscussPostService;
+import com.zwl.communityzwl.service.ElasticsearchService;
+import com.zwl.communityzwl.service.LikeService;
+import com.zwl.communityzwl.utils.CommunityConstant;
+import com.zwl.communityzwl.utils.RedisKeyUtil;
+import com.zwl.communityzwl.entity.DiscussPost;
+import com.zwl.communityzwl.service.DiscussPostService;
+import com.zwl.communityzwl.service.ElasticsearchService;
+import com.zwl.communityzwl.service.LikeService;
+import com.zwl.communityzwl.utils.CommunityConstant;
+import com.zwl.communityzwl.utils.RedisKeyUtil;
 import org.quartz.Job;
 import org.quartz.JobExecutionContext;
 import org.quartz.JobExecutionException;

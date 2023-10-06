@@ -1,12 +1,12 @@
-package com.ljn.communityljn.service;
+package com.zwl.communityzwl.service;
 
 
-import com.ljn.communityljn.dao.AlphaDao;
-import com.ljn.communityljn.dao.DiscussPostMapper;
-import com.ljn.communityljn.dao.UserMapper;
-import com.ljn.communityljn.entity.DiscussPost;
-import com.ljn.communityljn.entity.User;
-import com.ljn.communityljn.utils.CommunityUtil;
+import com.zwl.communityzwl.dao.AlphaDao;
+import com.zwl.communityzwl.dao.DiscussPostMapper;
+import com.zwl.communityzwl.dao.UserMapper;
+import com.zwl.communityzwl.entity.DiscussPost;
+import com.zwl.communityzwl.entity.User;
+import com.zwl.communityzwl.utils.CommunityUtil;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;

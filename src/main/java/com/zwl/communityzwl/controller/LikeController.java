@@ -1,13 +1,13 @@
-package com.ljn.communityljn.controller;
+package com.zwl.communityzwl.controller;
 
-import com.ljn.communityljn.entity.Event;
-import com.ljn.communityljn.entity.User;
-import com.ljn.communityljn.event.EventProducer;
-import com.ljn.communityljn.service.LikeService;
-import com.ljn.communityljn.utils.CommunityConstant;
-import com.ljn.communityljn.utils.CommunityUtil;
-import com.ljn.communityljn.utils.HostHolder;
-import com.ljn.communityljn.utils.RedisKeyUtil;
+import com.zwl.communityzwl.entity.Event;
+import com.zwl.communityzwl.entity.User;
+import com.zwl.communityzwl.event.EventProducer;
+import com.zwl.communityzwl.service.LikeService;
+import com.zwl.communityzwl.utils.CommunityConstant;
+import com.zwl.communityzwl.utils.CommunityUtil;
+import com.zwl.communityzwl.utils.HostHolder;
+import com.zwl.communityzwl.utils.RedisKeyUtil;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.stereotype.Controller;

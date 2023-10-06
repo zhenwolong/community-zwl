@@ -1,15 +1,18 @@
-package com.ljn.communityljn.controller;
+package com.zwl.communityzwl.controller;
 
-import com.ljn.communityljn.entity.Event;
-import com.ljn.communityljn.entity.Page;
-import com.ljn.communityljn.entity.User;
-import com.ljn.communityljn.event.EventProducer;
-import com.ljn.communityljn.service.FollowService;
-import com.ljn.communityljn.service.UserService;
-import com.ljn.communityljn.utils.CommunityConstant;
-import com.ljn.communityljn.utils.CommunityUtil;
-import com.ljn.communityljn.utils.HostHolder;
-import com.ljn.communityljn.utils.RedisKeyUtil;
+import com.zwl.communityzwl.entity.Event;
+import com.zwl.communityzwl.entity.Page;
+import com.zwl.communityzwl.entity.User;
+import com.zwl.communityzwl.event.EventProducer;
+import com.zwl.communityzwl.service.FollowService;
+import com.zwl.communityzwl.service.UserService;
+import com.zwl.communityzwl.utils.CommunityConstant;
+import com.zwl.communityzwl.utils.CommunityUtil;
+import com.zwl.communityzwl.utils.HostHolder;
+import com.zwl.communityzwl.utils.RedisKeyUtil;
+import com.zwl.communityzwl.event.EventProducer;
+import com.zwl.communityzwl.utils.CommunityConstant;
+import com.zwl.communityzwl.utils.HostHolder;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.stereotype.Controller;
@@ -22,7 +25,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 import java.util.List;
 import java.util.Map;
 
-import static com.ljn.communityljn.utils.CommunityConstant.ENTITY_TYPE_USER;
+import static com.zwl.communityzwl.utils.CommunityConstant.ENTITY_TYPE_USER;
 
 /**
  * @Author li

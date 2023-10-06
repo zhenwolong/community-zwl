@@ -1,13 +1,15 @@
-package com.ljn.communityljn.service;
+package com.zwl.communityzwl.service;
 
-import com.ljn.communityljn.dao.LoginTicketMapper;
-import com.ljn.communityljn.dao.UserMapper;
-import com.ljn.communityljn.entity.LoginTicket;
-import com.ljn.communityljn.entity.User;
-import com.ljn.communityljn.utils.CommunityConstant;
-import com.ljn.communityljn.utils.CommunityUtil;
-import com.ljn.communityljn.utils.MailClient;
-import com.ljn.communityljn.utils.RedisKeyUtil;
+import com.zwl.communityzwl.dao.LoginTicketMapper;
+import com.zwl.communityzwl.dao.UserMapper;
+import com.zwl.communityzwl.entity.LoginTicket;
+import com.zwl.communityzwl.entity.User;
+import com.zwl.communityzwl.utils.CommunityConstant;
+import com.zwl.communityzwl.utils.CommunityUtil;
+import com.zwl.communityzwl.utils.MailClient;
+import com.zwl.communityzwl.utils.RedisKeyUtil;
+import com.zwl.communityzwl.utils.CommunityConstant;
+import com.zwl.communityzwl.utils.RedisKeyUtil;
 import org.apache.commons.lang3.StringUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -22,15 +24,9 @@ import org.thymeleaf.context.Context;
 import java.util.*;
 import java.util.concurrent.TimeUnit;
 
-import static com.ljn.communityljn.utils.CommunityConstant.*;
+import static com.zwl.communityzwl.utils.CommunityConstant.*;
 
-/**
- * @Author li
- * @Date 10/29/22 9:34 PM
- * @Version 1.0
- * 描述 ：用户业务层的开发
- * 名称：UserService
- */
+
 @Service
 public class UserService implements CommunityConstant {
     private static final Logger logger = LoggerFactory.getLogger(UserService.class);

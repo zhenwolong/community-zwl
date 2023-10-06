@@ -1,8 +1,9 @@
-package com.ljn.communityljn.service;
+package com.zwl.communityzwl.service;
 
-import com.ljn.communityljn.dao.CommentMapper;
-import com.ljn.communityljn.entity.Comment;
-import com.ljn.communityljn.utils.SensitiveFilter;
+import com.zwl.communityzwl.dao.CommentMapper;
+import com.zwl.communityzwl.entity.Comment;
+import com.zwl.communityzwl.utils.SensitiveFilter;
+import com.zwl.communityzwl.utils.SensitiveFilter;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Isolation;
@@ -12,15 +13,9 @@ import org.springframework.web.util.HtmlUtils;
 
 import java.util.List;
 
-import static com.ljn.communityljn.utils.CommunityConstant.ENTITY_TYPE_POST;
+import static com.zwl.communityzwl.utils.CommunityConstant.ENTITY_TYPE_POST;
 
-/**
- * @Author li
- * @Date 11/6/22 9:37 PM
- * @Version 1.0
- * 描述 ：评论
- * 名称：CommentService
- */
+
 @Service
 public class CommentService {
 
@@ -31,7 +26,7 @@ public class CommentService {
     private SensitiveFilter sensitiveFilter;
 
     @Autowired
-    private DiscussPostService discussPostService;
+    private com.zwl.communityzwl.service.DiscussPostService discussPostService;
 
     public List<Comment> findCommentsByEntity(int entityType,int entityId,int offset,int limit){
         return commentMapper.selectCommentsByEntity(entityType,entityId,offset,limit);

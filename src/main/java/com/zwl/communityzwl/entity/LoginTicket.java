@@ -1,14 +1,8 @@
-package com.ljn.communityljn.entity;
+package com.zwl.communityzwl.entity;
 
 import java.util.Date;
 
-/**
- * @Author li
- * @Date 11/4/22 7:52 PM
- * @Version 1.0
- * 描述 ：登录表
- * 名称：LoginTicket
- */
+
 public class LoginTicket {
     private int id;
     private int userId;

@@ -1,23 +1,18 @@
-package com.ljn.communityljn.dao;
+package com.zwl.communityzwl.dao;
 
-import com.ljn.communityljn.entity.DiscussPost;
+import com.zwl.communityzwl.entity.DiscussPost;
+import com.zwl.communityzwl.entity.DiscussPost;
 import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Param;
 
 import java.util.Date;
 import java.util.List;
 
-/**
- * @Author li
- * @Date 10/29/22 4:33 PM
- * @Version 1.0
- * 描述 ：帖子接口
- * 名称：DiscussPostMapper
- */
+
 @Mapper
 public interface DiscussPostMapper {
 
-    List<DiscussPost> selectDiscussPosts(int userId, int offset, int limit,int orderMode);
+    List<DiscussPost> selectDiscussPosts(int userId, int offset, int limit, int orderMode);
 
     List<DiscussPost> selectDiscussPostsByType(int offset, int limit, int orderMode,int type ,int filter);
 

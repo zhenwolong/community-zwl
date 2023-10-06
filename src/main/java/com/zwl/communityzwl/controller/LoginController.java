@@ -1,10 +1,10 @@
-package com.ljn.communityljn.controller;
+package com.zwl.communityzwl.controller;
 
 import com.google.code.kaptcha.Producer;
-import com.ljn.communityljn.entity.User;
-import com.ljn.communityljn.service.UserService;
-import com.ljn.communityljn.utils.CommunityUtil;
-import com.ljn.communityljn.utils.RedisKeyUtil;
+import com.zwl.communityzwl.entity.User;
+import com.zwl.communityzwl.service.UserService;
+import com.zwl.communityzwl.utils.CommunityUtil;
+import com.zwl.communityzwl.utils.RedisKeyUtil;
 import org.apache.commons.lang3.StringUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -30,7 +30,7 @@ import java.io.OutputStream;
 import java.util.Map;
 import java.util.concurrent.TimeUnit;
 
-import static com.ljn.communityljn.utils.CommunityConstant.*;
+import static com.zwl.communityzwl.utils.CommunityConstant.*;
 
 /**
  * @Author li

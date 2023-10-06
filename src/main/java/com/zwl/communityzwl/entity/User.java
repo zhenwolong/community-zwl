@@ -1,14 +1,8 @@
-package com.ljn.communityljn.entity;
+package com.zwl.communityzwl.entity;
 
 import java.util.Date;
 
-/**
- * @Author li
- * @Date 10/29/22 4:29 PM
- * @Version 1.0
- * 描述 ：用户实体
- * 名称：User
- */
+
 public class User {
 
     private int id;

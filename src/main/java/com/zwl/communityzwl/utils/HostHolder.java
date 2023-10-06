@@ -1,6 +1,6 @@
-package com.ljn.communityljn.utils;
+package com.zwl.communityzwl.utils;
 
-import com.ljn.communityljn.entity.User;
+import com.zwl.communityzwl.entity.User;
 
 import org.springframework.stereotype.Component;
 

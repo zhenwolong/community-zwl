@@ -1,6 +1,6 @@
-package com.ljn.communityljn.controller;
+package com.zwl.communityzwl.controller;
 
-import com.ljn.communityljn.utils.CommunityUtil;
+import com.zwl.communityzwl.utils.CommunityUtil;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.CookieValue;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -11,13 +11,7 @@ import javax.servlet.http.Cookie;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 
-/**
- * @Author li
- * @Date 11/4/22 10:49 AM
- * @Version 1.0
- * 描述 ：
- * 名称：AlphaController
- */
+
 @Controller
 @RequestMapping("/alpha")
 public class AlphaController {

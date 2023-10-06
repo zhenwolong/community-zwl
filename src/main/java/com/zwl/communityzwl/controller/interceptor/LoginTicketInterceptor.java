@@ -1,10 +1,10 @@
-package com.ljn.communityljn.controller.interceptor;
+package com.zwl.communityzwl.controller.interceptor;
 
-import com.ljn.communityljn.entity.LoginTicket;
-import com.ljn.communityljn.entity.User;
-import com.ljn.communityljn.service.UserService;
-import com.ljn.communityljn.utils.CookieUtil;
-import com.ljn.communityljn.utils.HostHolder;
+import com.zwl.communityzwl.entity.LoginTicket;
+import com.zwl.communityzwl.entity.User;
+import com.zwl.communityzwl.service.UserService;
+import com.zwl.communityzwl.utils.CookieUtil;
+import com.zwl.communityzwl.utils.HostHolder;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
 import org.springframework.security.core.Authentication;

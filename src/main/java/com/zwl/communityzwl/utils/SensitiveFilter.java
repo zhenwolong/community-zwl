@@ -1,4 +1,4 @@
-package com.ljn.communityljn.utils;
+package com.zwl.communityzwl.utils;
 
 import org.apache.commons.lang3.CharUtils;
 import org.apache.commons.lang3.StringUtils;

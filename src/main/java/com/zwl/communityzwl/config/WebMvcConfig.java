@@ -1,6 +1,8 @@
-package com.ljn.communityljn.config;
+package com.zwl.communityzwl.config;
 
-import com.ljn.communityljn.controller.interceptor.*;
+import com.zwl.communityzwl.controller.interceptor.*;
+import com.zwl.communityzwl.controller.interceptor.LoginTicketInterceptor;
+import com.zwl.communityzwl.controller.interceptor.MessageInterceptor;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.servlet.config.annotation.InterceptorRegistry;
@@ -17,7 +19,7 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 public class WebMvcConfig implements WebMvcConfigurer {
 
     @Autowired
-    private Alphalnterceptor alphaInterceptor;
+    private com.zwl.communityzwl.controller.interceptor.Alphalnterceptor alphaInterceptor;
 
     @Autowired
     private LoginTicketInterceptor loginTicketInterceptor;
@@ -29,7 +31,7 @@ public class WebMvcConfig implements WebMvcConfigurer {
     private MessageInterceptor messageInterceptor;
 
     @Autowired
-    private DataInterceptor dataInterceptor;
+    private com.zwl.communityzwl.controller.interceptor.DataInterceptor dataInterceptor;
 
 
     @Override

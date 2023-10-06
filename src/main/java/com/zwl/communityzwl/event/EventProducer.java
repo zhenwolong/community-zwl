@@ -1,7 +1,7 @@
-package com.ljn.communityljn.event;
+package com.zwl.communityzwl.event;
 
 import com.alibaba.fastjson.JSONObject;
-import com.ljn.communityljn.entity.Event;
+import com.zwl.communityzwl.entity.Event;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.kafka.core.KafkaTemplate;
 import org.springframework.stereotype.Component;

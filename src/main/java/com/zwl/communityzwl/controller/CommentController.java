@@ -1,17 +1,19 @@
-package com.ljn.communityljn.controller;
+package com.zwl.communityzwl.controller;
 
 import com.alibaba.fastjson.JSONObject;
-import com.ljn.communityljn.entity.Comment;
-import com.ljn.communityljn.entity.DiscussPost;
-import com.ljn.communityljn.entity.Event;
-import com.ljn.communityljn.event.EventConsumer;
-import com.ljn.communityljn.event.EventProducer;
-import com.ljn.communityljn.service.CommentService;
-import com.ljn.communityljn.service.DiscussPostService;
-import com.ljn.communityljn.service.ElasticsearchService;
-import com.ljn.communityljn.utils.CommunityConstant;
-import com.ljn.communityljn.utils.HostHolder;
-import com.ljn.communityljn.utils.RedisKeyUtil;
+import com.zwl.communityzwl.entity.Comment;
+import com.zwl.communityzwl.entity.DiscussPost;
+import com.zwl.communityzwl.entity.Event;
+import com.zwl.communityzwl.event.EventConsumer;
+import com.zwl.communityzwl.event.EventProducer;
+import com.zwl.communityzwl.service.CommentService;
+import com.zwl.communityzwl.service.DiscussPostService;
+import com.zwl.communityzwl.service.ElasticsearchService;
+import com.zwl.communityzwl.utils.CommunityConstant;
+import com.zwl.communityzwl.utils.HostHolder;
+import com.zwl.communityzwl.utils.RedisKeyUtil;
+import com.zwl.communityzwl.event.EventConsumer;
+import com.zwl.communityzwl.event.EventProducer;
 import org.apache.kafka.clients.consumer.ConsumerRecord;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -25,32 +27,26 @@ import org.springframework.web.bind.annotation.RequestMethod;
 
 import java.util.Date;
 
-/**
- * @Author li
- * @Date 11/7/22 10:31 AM
- * @Version 1.0
- * 描述 ：评论接口
- * 名称：CommentController
- */
+
 @Controller
 @RequestMapping("/comment")
-public class CommentController implements CommunityConstant {
+public class CommentController implements com.zwl.communityzwl.utils.CommunityConstant {
 
     private static final Logger logger = LoggerFactory.getLogger(EventConsumer.class);
     @Autowired
-    private CommentService commentService;
+    private com.zwl.communityzwl.service.CommentService commentService;
 
     @Autowired
-    private HostHolder hostHolder;
+    private com.zwl.communityzwl.utils.HostHolder hostHolder;
 
     @Autowired
     private EventProducer eventProducer;
 
     @Autowired
-    private DiscussPostService discussPostService;
+    private com.zwl.communityzwl.service.DiscussPostService discussPostService;
 
     @Autowired
-    private ElasticsearchService elasticsearchService;
+    private com.zwl.communityzwl.service.ElasticsearchService elasticsearchService;
 
     @Autowired
     private RedisTemplate redisTemplate;
@@ -89,7 +85,7 @@ public class CommentController implements CommunityConstant {
         eventProducer.fireEvent(event);
 
         //计算帖子分数
-        String redisKey = RedisKeyUtil.getPostScoreKey();
+        String redisKey = com.zwl.communityzwl.utils.RedisKeyUtil.getPostScoreKey();
         redisTemplate.opsForSet().add(redisKey,discussPostId);
 
         return "redirect:/discuss/detail/" + discussPostId;
@@ -109,7 +105,7 @@ public class CommentController implements CommunityConstant {
             return;
         }
 
-        DiscussPost post = discussPostService.findDiscussPostById(event.getEntityId());
+        com.zwl.communityzwl.entity.DiscussPost post = discussPostService.findDiscussPostById(event.getEntityId());
         elasticsearchService.saveDiscussPost(post);
     }
 

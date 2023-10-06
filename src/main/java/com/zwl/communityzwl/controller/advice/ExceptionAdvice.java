@@ -1,6 +1,6 @@
-package com.ljn.communityljn.controller.advice;
+package com.zwl.communityzwl.controller.advice;
 
-import com.ljn.communityljn.utils.CommunityUtil;
+import com.zwl.communityzwl.utils.CommunityUtil;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

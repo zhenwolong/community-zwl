@@ -1,7 +1,7 @@
-package com.ljn.communityljn.dao;
+package com.zwl.communityzwl.dao;
 
 
-import com.ljn.communityljn.entity.Comment;
+import com.zwl.communityzwl.entity.Comment;
 import org.apache.ibatis.annotations.Mapper;
 
 import java.util.List;

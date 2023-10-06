@@ -1,6 +1,6 @@
-package com.ljn.communityljn.service;
+package com.zwl.communityzwl.service;
 
-import com.ljn.communityljn.utils.RedisKeyUtil;
+import com.zwl.communityzwl.utils.RedisKeyUtil;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.dao.DataAccessException;
 import org.springframework.data.redis.core.RedisOperations;
@@ -8,13 +8,7 @@ import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.data.redis.core.SessionCallback;
 import org.springframework.stereotype.Service;
 
-/**
- * @Author li
- * @Date 11/9/22 8:30 AM
- * @Version 1.0
- * 描述 ：点赞
- * 名称：LikeService
- */
+
 @Service
 public class LikeService {
 

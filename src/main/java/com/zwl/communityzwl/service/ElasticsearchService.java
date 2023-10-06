@@ -1,7 +1,8 @@
-package com.ljn.communityljn.service;
+package com.zwl.communityzwl.service;
 
-import com.ljn.communityljn.dao.elasticsearch.DiscussPostRepository;
-import com.ljn.communityljn.entity.DiscussPost;
+import com.zwl.communityzwl.dao.elasticsearch.DiscussPostRepository;
+import com.zwl.communityzwl.entity.DiscussPost;
+import com.zwl.communityzwl.entity.DiscussPost;
 import org.elasticsearch.action.search.SearchResponse;
 import org.elasticsearch.index.query.QueryBuilders;
 import org.elasticsearch.search.SearchHit;
@@ -26,13 +27,7 @@ import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 
-/**
- * @Author li
- * @Date 11/15/22 2:04 PM
- * @Version 1.0
- * 描述 ：es搜索服务
- * 名称：ElasticsearchService
- */
+
 @Service
 public class ElasticsearchService {
 

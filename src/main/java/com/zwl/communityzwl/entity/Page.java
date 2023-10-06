@@ -1,12 +1,6 @@
-package com.ljn.communityljn.entity;
+package com.zwl.communityzwl.entity;
 
-/**
- * @Author li
- * @Date 10/31/22 8:03 PM
- * @Version 1.0
- * 描述 ：
- * 名称：Page
- */
+
 /**
  * 封装分页相关的信息.
  */

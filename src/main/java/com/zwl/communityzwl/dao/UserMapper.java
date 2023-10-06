@@ -1,17 +1,11 @@
-package com.ljn.communityljn.dao;
+package com.zwl.communityzwl.dao;
 
-import com.ljn.communityljn.entity.User;
+import com.zwl.communityzwl.entity.User;
 import org.apache.ibatis.annotations.Mapper;
 
 import java.util.List;
 
-/**
- * @Author li
- * @Date 10/29/22 4:36 PM
- * @Version 1.0
- * 描述 ：
- * 名称：UserMapper
- */
+
 @Mapper
 public interface UserMapper {
 

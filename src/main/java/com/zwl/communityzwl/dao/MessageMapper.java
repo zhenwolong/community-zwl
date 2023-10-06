@@ -1,17 +1,11 @@
-package com.ljn.communityljn.dao;
+package com.zwl.communityzwl.dao;
 
-import com.ljn.communityljn.entity.Message;
+import com.zwl.communityzwl.entity.Message;
 import org.apache.ibatis.annotations.Mapper;
 
 import java.util.List;
 
-/**
- * @Author li
- * @Date 11/7/22 2:13 PM
- * @Version 1.0
- * 描述 ：会话
- * 名称：MessageMapper
- */
+
 @Mapper
 public interface MessageMapper {
 

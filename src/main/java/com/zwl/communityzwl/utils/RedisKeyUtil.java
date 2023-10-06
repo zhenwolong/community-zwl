@@ -1,4 +1,4 @@
-package com.ljn.communityljn.utils;
+package com.zwl.communityzwl.utils;
 
 /**
  * 生成key

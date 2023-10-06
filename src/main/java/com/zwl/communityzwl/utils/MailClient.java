@@ -1,4 +1,4 @@
-package com.ljn.communityljn.utils;
+package com.zwl.communityzwl.utils;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -13,13 +13,7 @@ import javax.annotation.Resource;
 import javax.mail.MessagingException;
 import javax.mail.internet.MimeMessage;
 
-/**
- * @Author li
- * @Date 11/1/22 10:11 AM
- * @Version 1.0
- * 描述 ：邮箱客户端
- * 名称：MailClient
- */
+
 @Component
 public class MailClient {
     private static final Logger logger = LoggerFactory.getLogger(MailClient.class);

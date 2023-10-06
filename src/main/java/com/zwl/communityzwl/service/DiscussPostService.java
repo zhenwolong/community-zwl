@@ -1,11 +1,13 @@
-package com.ljn.communityljn.service;
+package com.zwl.communityzwl.service;
 
 import com.github.benmanes.caffeine.cache.CacheLoader;
 import com.github.benmanes.caffeine.cache.Caffeine;
 import com.github.benmanes.caffeine.cache.LoadingCache;
-import com.ljn.communityljn.dao.DiscussPostMapper;
-import com.ljn.communityljn.entity.DiscussPost;
-import com.ljn.communityljn.utils.SensitiveFilter;
+import com.zwl.communityzwl.dao.DiscussPostMapper;
+import com.zwl.communityzwl.entity.DiscussPost;
+import com.zwl.communityzwl.utils.SensitiveFilter;
+import com.zwl.communityzwl.entity.DiscussPost;
+import com.zwl.communityzwl.utils.SensitiveFilter;
 import org.checkerframework.checker.nullness.qual.NonNull;
 import org.checkerframework.checker.nullness.qual.Nullable;
 import org.slf4j.Logger;
@@ -19,13 +21,7 @@ import javax.annotation.PostConstruct;
 import java.util.List;
 import java.util.concurrent.TimeUnit;
 
-/**
- * @Author li
- * @Date 10/29/22 5:19 PM
- * @Version 1.0
- * 描述 ：
- * 名称：DiscussPostService
- */
+
 @Service
 public class DiscussPostService {
     private static final Logger logger = LoggerFactory.getLogger(DiscussPostService.class);

@@ -1,12 +1,6 @@
-package com.ljn.communityljn.utils;
+package com.zwl.communityzwl.utils;
 
-/**
- * @Author li
- * @Date 11/4/22 10:08 AM
- * @Version 1.0
- * 描述 ：重复激活的码
- * 名称：CommunityConstant
- */
+
 public interface CommunityConstant {
 
     /**

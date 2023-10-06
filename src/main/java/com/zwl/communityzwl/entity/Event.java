@@ -1,15 +1,9 @@
-package com.ljn.communityljn.entity;
+package com.zwl.communityzwl.entity;
 
 import java.util.HashMap;
 import java.util.Map;
 
-/**
- * @Author li
- * @Date 11/13/22 10:18 AM
- * @Version 1.0
- * 描述 ：事件实体
- * 名称：Event
- */
+
 public class Event {
 
     private String topic;//主题

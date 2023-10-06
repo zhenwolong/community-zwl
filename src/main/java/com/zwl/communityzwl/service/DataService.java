@@ -1,6 +1,7 @@
-package com.ljn.communityljn.service;
+package com.zwl.communityzwl.service;
 
-import com.ljn.communityljn.utils.RedisKeyUtil;
+import com.zwl.communityzwl.utils.RedisKeyUtil;
+import com.zwl.communityzwl.utils.RedisKeyUtil;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.dao.DataAccessException;
 import org.springframework.data.redis.connection.RedisConnection;
@@ -15,13 +16,7 @@ import java.util.Calendar;
 import java.util.Date;
 import java.util.List;
 
-/**
- * @Author li
- * @Date 11/16/22 7:50 PM
- * @Version 1.0
- * 描述 ：网站数据统计
- * 名称：DataService
- */
+
 @Service
 public class DataService {
     @Autowired

@@ -1,10 +1,10 @@
-package com.ljn.communityljn.controller;
+package com.zwl.communityzwl.controller;
 
-import com.ljn.communityljn.entity.DiscussPost;
-import com.ljn.communityljn.entity.Page;
-import com.ljn.communityljn.service.ElasticsearchService;
-import com.ljn.communityljn.service.LikeService;
-import com.ljn.communityljn.service.UserService;
+import com.zwl.communityzwl.entity.DiscussPost;
+import com.zwl.communityzwl.entity.Page;
+import com.zwl.communityzwl.service.ElasticsearchService;
+import com.zwl.communityzwl.service.LikeService;
+import com.zwl.communityzwl.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -16,7 +16,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-import static com.ljn.communityljn.utils.CommunityConstant.ENTITY_TYPE_POST;
+import static com.zwl.communityzwl.utils.CommunityConstant.ENTITY_TYPE_POST;
 
 /**
  * @Author li

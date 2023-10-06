@@ -1,15 +1,14 @@
-package com.ljn.communityljn.controller;
+package com.zwl.communityzwl.controller;
 
 import com.alibaba.fastjson.JSONObject;
-import com.ljn.communityljn.entity.Message;
-import com.ljn.communityljn.entity.Page;
-import com.ljn.communityljn.entity.User;
-import com.ljn.communityljn.service.MessageService;
-import com.ljn.communityljn.service.UserService;
-import com.ljn.communityljn.utils.CommunityConstant;
-import com.ljn.communityljn.utils.CommunityUtil;
-import com.ljn.communityljn.utils.HostHolder;
-import jdk.nashorn.internal.ir.IdentNode;
+import com.zwl.communityzwl.entity.Message;
+import com.zwl.communityzwl.entity.Page;
+import com.zwl.communityzwl.entity.User;
+import com.zwl.communityzwl.service.MessageService;
+import com.zwl.communityzwl.service.UserService;
+import com.zwl.communityzwl.utils.CommunityConstant;
+import com.zwl.communityzwl.utils.CommunityUtil;
+import com.zwl.communityzwl.utils.HostHolder;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;

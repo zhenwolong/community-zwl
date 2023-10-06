@@ -1,6 +1,6 @@
-package com.ljn.communityljn.controller;
+package com.zwl.communityzwl.controller;
 
-import com.ljn.communityljn.service.DataService;
+import com.zwl.communityzwl.service.DataService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.format.annotation.DateTimeFormat;
 import org.springframework.stereotype.Controller;
@@ -10,13 +10,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 
 import java.util.Date;
 
-/**
- * @Author li
- * @Date 11/16/22 8:17 PM
- * @Version 1.0
- * 描述 ：统计网站数据的接口
- * 名称：DataController
- */
+
 @Controller
 public class DataController {
     @Autowired

@@ -1,7 +1,8 @@
-package com.ljn.communityljn.dao.elasticsearch;
+package com.zwl.communityzwl.dao.elasticsearch;
 
 
-import com.ljn.communityljn.entity.DiscussPost;
+import com.zwl.communityzwl.entity.DiscussPost;
+import com.zwl.communityzwl.entity.DiscussPost;
 import org.springframework.data.elasticsearch.repository.ElasticsearchRepository;
 import org.springframework.stereotype.Repository;
 

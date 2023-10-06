@@ -1,14 +1,14 @@
-package com.ljn.communityljn.event;
+package com.zwl.communityzwl.event;
 
 import com.alibaba.fastjson.JSONObject;
 
-import com.ljn.communityljn.entity.DiscussPost;
-import com.ljn.communityljn.entity.Event;
-import com.ljn.communityljn.entity.Message;
-import com.ljn.communityljn.service.DiscussPostService;
-import com.ljn.communityljn.service.ElasticsearchService;
-import com.ljn.communityljn.service.MessageService;
-import com.ljn.communityljn.utils.CommunityConstant;
+import com.zwl.communityzwl.entity.DiscussPost;
+import com.zwl.communityzwl.entity.Event;
+import com.zwl.communityzwl.entity.Message;
+import com.zwl.communityzwl.service.DiscussPostService;
+import com.zwl.communityzwl.service.ElasticsearchService;
+import com.zwl.communityzwl.service.MessageService;
+import com.zwl.communityzwl.utils.CommunityConstant;
 import org.apache.kafka.clients.consumer.ConsumerRecord;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

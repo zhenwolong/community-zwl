@@ -1,26 +1,20 @@
-package com.ljn.communityljn.service;
+package com.zwl.communityzwl.service;
 
-import com.ljn.communityljn.dao.MessageMapper;
-import com.ljn.communityljn.entity.Message;
-import com.ljn.communityljn.utils.SensitiveFilter;
+import com.zwl.communityzwl.dao.MessageMapper;
+import com.zwl.communityzwl.entity.Message;
+import com.zwl.communityzwl.utils.SensitiveFilter;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.web.util.HtmlUtils;
 
 import java.util.List;
 
-/**
- * @Author li
- * @Date 11/7/22 2:39 PM
- * @Version 1.0
- * 描述 ：会话
- * 名称：MessageService
- */
+
 @Service
 public class MessageService {
 
     @Autowired
-    private MessageMapper messageMapper;
+    private com.zwl.communityzwl.dao.MessageMapper messageMapper;
 
     @Autowired
     private SensitiveFilter sensitiveFilter;

@@ -1,8 +1,8 @@
-package com.ljn.communityljn.service;
+package com.zwl.communityzwl.service;
 
-import com.ljn.communityljn.entity.User;
-import com.ljn.communityljn.utils.CommunityConstant;
-import com.ljn.communityljn.utils.RedisKeyUtil;
+import com.zwl.communityzwl.entity.User;
+import com.zwl.communityzwl.utils.CommunityConstant;
+import com.zwl.communityzwl.utils.RedisKeyUtil;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.dao.DataAccessException;
 import org.springframework.data.redis.core.RedisOperations;
@@ -12,13 +12,7 @@ import org.springframework.stereotype.Service;
 
 import java.util.*;
 
-/**
- * @Author li
- * @Date 11/11/22 9:23 AM
- * @Version 1.0
- * 描述 ：关注
- * 名称：FollowService
- */
+
 @Service
 public class FollowService implements CommunityConstant {
 
@@ -26,7 +20,7 @@ public class FollowService implements CommunityConstant {
     private RedisTemplate redisTemplate;
 
     @Autowired
-    private UserService userService;
+    private com.zwl.communityzwl.service.UserService userService;
 
     //关注
     public void follow(int userId, int entityType, int entityId) {

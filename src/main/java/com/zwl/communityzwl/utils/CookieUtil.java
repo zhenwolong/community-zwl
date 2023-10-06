@@ -1,4 +1,4 @@
-package com.ljn.communityljn.utils;
+package com.zwl.communityzwl.utils;
 
 import javax.servlet.http.Cookie;
 import javax.servlet.http.HttpServletRequest;
